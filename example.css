@@ -1,0 +1,104 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+#about {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  margin: 50px;
+}
+#about h5, #about p {
+  color: rgba(0, 0, 0, 0.749);
+  margin: 15px;
+}
+
+#photo {
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+}
+#photo .container {
+  margin-right: 10px;
+  margin-left: 100px;
+}
+#photo .container .card {
+  margin: 40px;
+}
+#photo .container .card img {
+  border-radius: 1%;
+}
+#photo .container .card h5 {
+  color: rgba(33, 30, 30, 0.886);
+}
+#photo .container .card p {
+  color: rgb(47, 44, 44);
+}
+#photo .container .card .p1 {
+  color: gray;
+}
+#photo .container .card .p1 .p2 {
+  color: green;
+  font-weight: 800;
+}
+
+.circle {
+  display: flex;
+  margin-top: 10px;
+}
+.circle .first {
+  margin-right: 10px;
+  width: 15px;
+  height: 15px;
+  background-color: rgb(41, 208, 230);
+  border-radius: 20px;
+}
+.circle .second {
+  margin-right: 10px;
+  width: 15px;
+  height: 15px;
+  background-color: rgb(8, 111, 32);
+  border-radius: 20px;
+}
+.circle .third {
+  margin-right: 10px;
+  width: 15px;
+  height: 15px;
+  background-color: rgb(227, 143, 47);
+  border-radius: 20px;
+}
+.circle .fourth {
+  margin-right: 10px;
+  width: 15px;
+  height: 15px;
+  background-color: rgb(103, 44, 19);
+  border-radius: 20px;
+}
+
+#photo2 {
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+}
+#photo2 .container {
+  margin-right: 10px;
+  margin-left: 100px;
+}
+#photo2 .container .card {
+  margin: 40px;
+}
+#photo2 .container .card img {
+  border-radius: 1%;
+}
+#photo2 .container .card h5 {
+  color: rgba(33, 30, 30, 0.886);
+}
+#photo2 .container .card p {
+  color: rgb(47, 44, 44);
+}
+#photo2 .container .card .p1 {
+  color: gray;
+}
+#photo2 .container .card .p1 .p2 {
+  color: green;
+  font-weight: 800;
+}/*# sourceMappingURL=example.css.map */
